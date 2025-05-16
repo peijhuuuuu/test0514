@@ -39,16 +39,17 @@ classified = image.cluster(clusterer)
 
 # 4. 設定圖例與視覺化參數
 legend_dict = {
-    'one': '#ab0000',
-    'two': '#1c5f2c',
-    'three': '#d99282',
-    'four': '#466b9f',
-    'five': '#ab6c28',
-    'six': '#e6b800',
-    'seven': '#5e3c99',
-    'eight': '#7b3294',
-    'nine': '#a6cee3',
-    'ten': '#b15928'
+    'one':   '#e63946',  
+    'two':   '#2a9d8f',  
+    'three': '#f4a261',  
+    'four':  '#457b9d',  
+    'five':  '#e9c46a',  
+    'six':   '#264653',  
+    'seven': '#a8dadc',  
+    'eight': '#8d99ae',  
+    'nine':  '#ffb4a2',  
+    'ten':   '#6a4c93'   
+}
 }
 palette = list(legend_dict.values())
 vis_params_classified = {'min': 0, 'max': 9, 'palette': palette}
