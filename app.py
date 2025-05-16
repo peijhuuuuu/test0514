@@ -50,7 +50,6 @@ legend_dict = {
     'nine':  '#ffb4a2',  
     'ten':   '#6a4c93'   
 }
-}
 palette = list(legend_dict.values())
 vis_params_classified = {'min': 0, 'max': 9, 'palette': palette}
 vis_params_rgb = {'min': 100,'max': 3500,'bands': ['B4', 'B3', 'B2']}
